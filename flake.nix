@@ -17,8 +17,8 @@
             pname = "mcxboxbroadcast";
             version = "1.0";
             src = fetchurl {
-              url = "https://github.com/MCXboxBroadcast/Broadcaster/releases/download/73/MCXboxBroadcastStandalone.jar";
-              hash = "sha256-YB3heS+xTRshSBzIfCngtIXvZnDlz7l3vmmgqBkYqDU=";
+              url = "https://github.com/MCXboxBroadcast/Broadcaster/releases/download/74/MCXboxBroadcastStandalone.jar";
+              hash = "sha256-hKA28WpW+kSZyJrjDBYTCvh9Yc2aRTaoxBAu5hCY2lk=";
             };
             phases = ["installPhase"];
             installPhase = ''
