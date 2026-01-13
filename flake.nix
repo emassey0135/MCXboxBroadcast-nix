@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs = {
-      url = "github:NixOS/nixpkgs/nixos-25.05";
+      url = "github:NixOS/nixpkgs/nixos-25.11";
     };
     flake-utils = {
       url = "github:numtide/flake-utils";
@@ -17,8 +17,8 @@
             pname = "mcxboxbroadcast";
             version = "1.0";
             src = fetchurl {
-              url = "https://github.com/MCXboxBroadcast/Broadcaster/releases/download/116/MCXboxBroadcastStandalone.jar";
-              hash = "sha256-tzsOD+OCvbOdO0xgGbTbb7AAZSVq6/OdBHkNxjT511I=";
+              url = "https://github.com/MCXboxBroadcast/Broadcaster/releases/download/128/MCXboxBroadcastStandalone.jar";
+              hash = "sha256-E2V/5ya9s7q7uVRNRKQDrh6zmrUmIs39M75UiPgO9hE=";
             };
             phases = ["installPhase"];
             installPhase = ''
